@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+    
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;
+
+}
+.line{
+
+    background-color: white;
+    width: 33px;
+    height: 5px;
+    margin: 5px 5px;
+}
+
+
+
+.leftnav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+
+.logo img{
+    height: 55px;
+    width: 55px;
+    border: 1px solid white;
+    border-radius: 116px;
+    padding: 9px 10px;
+    
+}
+
+.leftnav li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.leftnav li a{
+    text-decoration: none;
+    color: white;
+    font-family:'PT Serif', serif; 
+}
+
+.leftnav li a:hover{
+    color: grey;
+}
+
+.btn:hover{
+    color: grey;
+    
+}
+.rightnav{
+    width: 30%;
+    /* background-color: yellow; */
+    text-align: right;
+    padding: 0 20px;
+
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 3px solid grey;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://source.unsplash.com/random/900×700/?building') ; 
+    background-size: cover; 
+    background-blend-mode: darken;
+     
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 90%;
+    color: white;
+    max-width: 50%;
+    font-family:'PT Serif', serif;
+    text-align: justify;
+}
+.firstHalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bigText{
+    font-size: 20px;
+    
+
+}
+
+.smallText{
+    font-size: 41px;
+
+}
+
+.secondHalf{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.secondHalf img{
+    height: 150px;
+    width: 170px;
+    border: solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.secondHalf img{
+    height: 150px;
+    width: 150px;   
+
+}
+
+.btn{
+    padding: 5px 5px;
+    margin: 8px 3px;
+    border: solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.imgFluid{
+    height: 250px;
+    width: 250px;
+    border: 4px white;
+    /* padding: 0 20px; */
+    border: 3px solid black;
+    margin: 0 10px;
+    border-radius: 40px;
+    
+    
+    
+}
+
+.section{
+    /* height: 500px; */
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    font-family:'PT Serif', serif;
+}
+
+.paras{
+    padding: 0 65px;
+    text-align: justify;
+}
+.sectionLeft{
+    flex-direction: row-reverse;
+
+ }
+
+ .sectionSubTag{
+     font-family:'PT Serif', serif;
+ }
+ .sectionTag{
+     padding: 16px 0;
+ }
+
+ .contact{
+     background-color: rgb(250, 252, 246);
+     height: 533px;
+ }
+.centerCon{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.info{
+    max-width: 67% ;
+    margin: auto;
+    
+}
+.infoInput{
+    width: 100%;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 6px;
+    margin: 10px 0;
+  
+}
+.btnDark{
+    color: solid black;
+    border: 2px solid grey;
+    background: rgb(80, 98, 109);
+    margin: auto;
+    width: 7%;
+    align-items: center;
+}
+.textFooter{
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
